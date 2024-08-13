@@ -1,6 +1,7 @@
 package com.example.calculatorapp
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,4 +18,10 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
+
+    fun onOperatorClick(view: View) {}
+    fun onEqualClick(view: View) {}
+    fun onAllClearClick(view: View) {}
+    fun onClearClick(view: View) {}
+    fun onBackClick(view: View) {}
 }
